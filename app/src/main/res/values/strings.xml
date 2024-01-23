@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="help_me_find">помоги мнe\nнайти твой образ</string>
+    <string name="genderF">ж</string>
+</resources>

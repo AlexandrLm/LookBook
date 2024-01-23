@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9D0D3"
+    android:padding="0sp"
+    android:paddingHorizontal="0sp"
+    android:paddingVertical="0sp"
+    android:paddingTop="0sp"
+    android:paddingBottom="0sp"
+    android:textAlignment="center"
+    tools:context=".TestActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/oswald_light"
+        android:text="укажи свой пол"
+        android:textColor="#3C3535"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/genderF"
+        android:layout_width="94sp"
+        android:layout_height="48sp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="16dp"
+        android:autoText="false"
+        android:backgroundTint="@color/testButton"
+        android:fontFamily="@font/oswald_light"
+        android:insetTop="0sp"
+        android:insetBottom="0dp"
+        android:lineSpacingExtra="0sp"
+        android:onClick="back"
+        android:padding="0sp"
+        android:paddingTop="0dp"
+        android:text="@string/genderF"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:iconPadding="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
