@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E9D0D3"
+    android:background="@color/testBackground"
     android:onClick="checkSeason"
     android:padding="0sp"
     android:paddingHorizontal="0sp"
@@ -29,8 +29,8 @@
 
     <Button
         android:id="@+id/genderF"
-        android:layout_width="94sp"
-        android:layout_height="48sp"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/testButton"
@@ -49,8 +49,8 @@
 
     <Button
         android:id="@+id/genderM"
-        android:layout_width="94sp"
-        android:layout_height="48sp"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="37dp"
         android:backgroundTint="@color/testButton"
@@ -77,132 +77,87 @@
         android:fontFamily="@font/oswald_light"
         android:text="куда собираешься?"
         android:textColor="#3C3535"
-        android:textSize="32sp"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/frame_Layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="410dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="96dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/genderF">
-
-        <Button
-            android:id="@+id/theatrBtn"
-            android:layout_width="140dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="16dp"
-            android:backgroundTint="@color/testButton"
-            android:fontFamily="@font/oswald_light"
-            android:onClick="checkWhereGoing"
-            android:padding="0dp"
-            android:text="театр"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/schoolBtn"
-            android:layout_width="140dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="2dp"
-            android:backgroundTint="@color/testButton"
-            android:fontFamily="@font/oswald_light"
-            android:onClick="checkWhereGoing"
-            android:padding="0dp"
-            android:text="учеба"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/cityBtn"
-            android:layout_width="140dp"
-            android:layout_height="48dp"
-            android:layout_marginEnd="16dp"
-            android:backgroundTint="@color/testButton"
-            android:fontFamily="@font/oswald_light"
-            android:onClick="checkWhereGoing"
-            android:padding="0dp"
-            android:text="выход в город"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toBottomOf="@+id/genderF" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="68dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/oswald_light"
         android:text="какое время года?"
         android:textColor="#3C3535"
-        android:textSize="32sp"
-        app:layout_constraintBottom_toTopOf="@+id/springBtn"
+        android:textSize="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/frame_Layout" />
 
-    <Button
-        android:id="@+id/SummerBtn"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="16dp"
-        android:backgroundTint="@color/testButton"
-        android:fontFamily="@font/oswald_light"
-        android:onClick="checkSeason"
-        android:padding="0dp"
-        android:text="лето"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/springBtn"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginStart="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/searchBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <Button
-        android:id="@+id/springBtn"
-        android:layout_width="178dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="296dp"
-        android:backgroundTint="@color/testButton"
-        android:fontFamily="@font/oswald_light"
-        android:onClick="checkSeason"
-        android:padding="0dp"
-        android:text="весна-осень"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/winterBtn"
-        android:layout_width="128dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:backgroundTint="@color/testButton"
-        android:fontFamily="@font/oswald_light"
-        android:onClick="checkSeason"
-        android:padding="0dp"
-        android:text="зима"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/springBtn"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.098">
+
+        <Button
+            android:id="@+id/SummerBtn"
+            android:layout_width="128dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/testButton"
+            android:fontFamily="@font/oswald_light"
+            android:onClick="checkSeason"
+            android:padding="0dp"
+            android:text="лето"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/springBtn"
+            android:layout_width="178dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/testButton"
+            android:fontFamily="@font/oswald_light"
+            android:onClick="checkSeason"
+            android:padding="0dp"
+            android:text="весна-осень"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/winterBtn" />
+
+        <Button
+            android:id="@+id/winterBtn"
+            android:layout_width="128dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="26dp"
+            android:backgroundTint="@color/testButton"
+            android:fontFamily="@font/oswald_light"
+            android:onClick="checkSeason"
+            android:padding="0dp"
+            android:text="зима"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
         android:id="@+id/searchBtn"
         android:layout_width="224dp"
         android:layout_height="64dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="50dp"
         android:backgroundTint="@color/testButton"
         android:fontFamily="@font/oswald_light"
         android:onClick="search"
@@ -214,5 +169,51 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderF">
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whereGoing">
+
+        <Button
+            android:id="@+id/nextFragmentBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/nextPrevButtons"
+            android:onClick="prevNextBtn"
+            android:text="next"
+            android:textColor="@color/nextPrevButtons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/prevFragmentBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/nextPrevButtons"
+            android:onClick="prevNextBtn"
+            android:text="prev"
+            android:textColor="@color/nextPrevButtons"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

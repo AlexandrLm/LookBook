@@ -2,74 +2,118 @@ package com.example.test
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.core.view.isVisible
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
 
 class TestActivity : AppCompatActivity() {
-    var gender : String = "none"
-    var whereGoing : String = "none"
-    var season : String = "none"
+    private var gender : String = "none"
+    private var whereGoing : String = "none"
+    private var season : String = "none"
+    private val firstFragment : FirstFragment = FirstFragment()
+    private val secondFragment : SecondFragment = SecondFragment()
+    private val thirdFragment : ThirdFragment = ThirdFragment()
+    private var curFragment : Int = 1
+
+    private val fragments : Array<Fragment> = arrayOf(firstFragment, secondFragment, thirdFragment)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test)
+
+        setNewFragment(fragments[curFragment])
     }
-     fun back(v : View){
+    @SuppressLint("CommitTransaction")
+    fun setNewFragment(fragment : Fragment){
+        val ft : FragmentTransaction = supportFragmentManager.beginTransaction()
+        ft.replace(R.id.frame_Layout, fragment)
+        ft.commit()
+    }
+    fun prevNextBtn(v : View){
+        if(v.id == R.id.prevFragmentBtn && curFragment != 0){
+            curFragment--
+            setNewFragment(fragments[curFragment])
+        }
+        else if(v.id == R.id.nextFragmentBtn && curFragment != 2){
+            curFragment++
+            setNewFragment(fragments[curFragment])
+        }
+    }
+
+     fun back(){
          val intent = Intent(this, MainActivity::class.java)
          startActivity(intent)
      }
     @SuppressLint("ResourceAsColor")
     fun checkGender(v : View){
-        var btnM : View = findViewById(R.id.genderM)
-        var btnF : View = findViewById(R.id.genderF)
+        //val btnM : View = findViewById(R.id.genderM)
+        //val btnF : View = findViewById(R.id.genderF)
         if(v.id == R.id.genderM){
             gender = "male"
-            btnM.background.setTint(R.color.white)
-            btnF.background.setTint(R.color.testButton)
-            println(gender)
+            //btnM.background.setTint(R.color.white)
+            //btnF.background.setTint(R.color.testButton)
         }
         else if (v.id == R.id.genderF) {
             gender = "famale"
-            btnF.background.setTint(R.color.white)
-            btnM.background.setTint(R.color.testButton)
-            println(gender)
+            //btnF.background.setTint(R.color.white)
+            //btnM.background.setTint(R.color.testButton)
         }
+        println(gender)
     }
     fun checkWhereGoing(v : View){
-        if(v.id == R.id.theatrBtn){
-            whereGoing = "theatr"
-            println(whereGoing)
+        //firstFragment
+        when (v.id) {
+            R.id.eveningBtn -> {
+                whereGoing = "evening"
+            }
+            R.id.clubBtn -> {
+                whereGoing = "club"
+            }
+            R.id.restBtn -> {
+                whereGoing = "rest"
+            }
+            //secondFragment
+            R.id.theatrBtn -> {
+                whereGoing = "theatr"
+            }
+            R.id.schoolBtn -> {
+                whereGoing = "school"
+            }
+            R.id.cityBtn -> {
+                whereGoing = "city"
+            }
+            //thirdFragment
+            R.id.cafeBtn -> {
+                whereGoing = "cafe"
+            }
+            R.id.resortBtn -> {
+                whereGoing = "resort"
+            }
+            R.id.restaurantBtn -> {
+                whereGoing = "restaurant"
+            }
         }
-        else if(v.id == R.id.schoolBtn){
-            whereGoing = "school"
-            println(whereGoing)
-        }
-        else if(v.id == R.id.cityBtn){
-            whereGoing = "city"
-            println(whereGoing)
-        }
+        println(whereGoing)
     }
 
     fun checkSeason(v : View){
-        if(v.id == R.id.winterBtn){
-            season = "winter"
-            println(season)
+        when (v.id) {
+            R.id.winterBtn -> {
+                season = "winter"
+            }
+            R.id.SummerBtn -> {
+                season = "summer"
+            }
+            R.id.springBtn -> {
+                season = "spring"
+            }
         }
-        else if(v.id == R.id.SummerBtn){
-            season = "summer"
-            println(season)
-        }
-        else if(v.id == R.id.springBtn){
-            season = "spring"
-            println(season)
-        }
+        println(season)
     }
-    fun search(v: View){
+    fun search(v : View){
         if (gender != "none" && whereGoing != "none" && season != "none"){
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            back()
         }
         println(gender)
         println(whereGoing)

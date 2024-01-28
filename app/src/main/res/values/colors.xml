@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="testButton">#665B5B</color>
     <color name="testButtonActive">#9A8787</color>
+    <color name="nextPrevButtons">#988D8D</color>
+    <color name="testBackground">#E9D0D3</color>
 </resources>
