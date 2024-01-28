@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 
@@ -40,7 +41,6 @@ class TestActivity : AppCompatActivity() {
             setNewFragment(fragments[curFragment])
         }
     }
-
      fun back(){
          val intent = Intent(this, MainActivity::class.java)
          startActivity(intent)
@@ -96,7 +96,6 @@ class TestActivity : AppCompatActivity() {
         }
         println(whereGoing)
     }
-
     fun checkSeason(v : View){
         when (v.id) {
             R.id.winterBtn -> {
@@ -119,5 +118,4 @@ class TestActivity : AppCompatActivity() {
         println(whereGoing)
         println(season)
     }
-
 }

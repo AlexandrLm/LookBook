@@ -22,6 +22,7 @@
             android:onClick="checkWhereGoing"
             android:padding="0dp"
             android:text="отдых"
+            android:textAllCaps="false"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/clubBtn" />
@@ -37,6 +38,7 @@
             android:onClick="checkWhereGoing"
             android:padding="0dp"
             android:text="вечерний выход"
+            android:textAllCaps="false"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/clubBtn" />
@@ -50,6 +52,7 @@
             android:onClick="checkWhereGoing"
             android:padding="0dp"
             android:text="клуб"
+            android:textAllCaps="false"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
