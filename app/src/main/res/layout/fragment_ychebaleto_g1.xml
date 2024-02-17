@@ -4,5 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6C666A"
-    tools:context=".ychebaletoG1" />
+    android:background="#CC959B"
+    tools:context=".ychebaletoG1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="253dp"
+            android:layout_height="466dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/remove_bg_443"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="200dp"
+            android:layout_height="196dp"
+            android:src="@drawable/designer_clothes__shoes___bags_for_women___ssense_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="136dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/____photoroom_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="185dp"
+            android:layout_height="181dp"
+            android:layout_marginEnd="268dp"
+            android:layout_marginBottom="572dp"
+            android:rotation="90"
+            android:src="@drawable/sweetheart_clip_in_pink_pixie_photoroom_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="169dp"
+            android:layout_height="198dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="216dp"
+            android:src="@drawable/kawaii_simple_korea_style_canvas_harajuku_backpack___white__l30cmw13cmh40cm_photoroom_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="206dp"
+            android:layout_height="231dp"
+            android:src="@drawable/bow_earrings_silver___all_jewellery___karen_walker_photoroom_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-44dp" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="161dp"
+            android:layout_height="206dp"
+            android:layout_marginEnd="88dp"
+            android:src="@drawable/remove_bg_11"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="169dp" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="137dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="196dp"
+            android:layout_marginEnd="32dp"
+            android:src="@drawable/bow_design_pinkie_ring__14k_white_gold_photoroom_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="184dp"
+            android:layout_height="385dp"
+            android:layout_marginTop="428dp"
+            android:layout_marginEnd="32dp"
+            android:src="@drawable/chalk_metallic_buckle_mary_janes___charles___keith__1__pixian_ai_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
