@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 
@@ -111,11 +112,19 @@ class TestActivity : AppCompatActivity() {
         println(season)
     }
     fun search(v : View){
-        if (gender != "none" && whereGoing != "none" && season != "none"){
-            back()
+        if (gender == "none" || whereGoing == "none" || season == "none"){
+            Toast.makeText(this,"Выберите все значения", Toast.LENGTH_LONG).show()
+            //back()
+            return
         }
         println(gender)
         println(whereGoing)
         println(season)
+
+        val intent = Intent(this, ResultActivity::class.java)
+        intent.putExtra(gender,gender)
+        intent.putExtra(whereGoing,whereGoing)
+        intent.putExtra(season,season)
+        startActivity(intent)
     }
 }
