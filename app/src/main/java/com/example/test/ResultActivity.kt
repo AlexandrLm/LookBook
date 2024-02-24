@@ -2,9 +2,9 @@ package com.example.test
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 
@@ -17,6 +17,20 @@ class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
+
+        val arguments = intent.extras
+
+        var gender = "none"
+        var whereGoing = "none"
+        var season = "none"
+        if (arguments != null) {
+            gender = arguments.getString("gender").toString()
+            whereGoing = arguments.getString("whereGoing").toString()
+            season = arguments.getString("season").toString()
+        }
+        println(gender)
+        println(whereGoing)
+        println(season)
 
         fragments = arrayOf(FirstFragment(),SecondFragment(),ThirdFragment())
 

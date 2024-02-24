@@ -115,16 +115,16 @@ class TestActivity : AppCompatActivity() {
         if (gender == "none" || whereGoing == "none" || season == "none"){
             Toast.makeText(this,"Выберите все значения", Toast.LENGTH_LONG).show()
             //back()
+            println(gender)
+            println(whereGoing)
+            println(season)
             return
         }
-        println(gender)
-        println(whereGoing)
-        println(season)
 
         val intent = Intent(this, ResultActivity::class.java)
-        intent.putExtra(gender,gender)
-        intent.putExtra(whereGoing,whereGoing)
-        intent.putExtra(season,season)
+        intent.putExtra("gender",gender)
+        intent.putExtra("whereGoing",whereGoing)
+        intent.putExtra("season",season)
         startActivity(intent)
     }
 }
