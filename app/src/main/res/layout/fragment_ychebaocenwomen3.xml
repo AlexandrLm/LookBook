@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ychebaocenwomen3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC959B">
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="293dp"
+            android:layout_height="437dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginBottom="352dp"
+            android:src="@drawable/remove_bg_821"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="191dp"
+            android:layout_height="253dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="328dp"
+            android:src="@drawable/remove_bg_810"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="176dp"
+            android:layout_height="195dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="224dp"
+            android:src="@drawable/remove_bg_808"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="181dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:src="@drawable/remove_bg_800"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="171dp"
+            android:layout_height="211dp"
+            android:src="@drawable/kawaii_simple_korea_style_canvas_harajuku_backpack___white__l30cmw13cmh40cm_photoroom_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.933"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="412dp" />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="168dp"
+            android:layout_height="167dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="396dp"
+            android:src="@drawable/remove_bg_820"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="111dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/remove_bg_823"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="123dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="192dp"
+            android:layout_marginBottom="312dp"
+            android:src="@drawable/remove_bg_824"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="276dp"
+            android:layout_marginBottom="364dp"
+            android:src="@drawable/remove_bg_825"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
