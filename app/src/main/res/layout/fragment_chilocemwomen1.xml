@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7994AE"
+    tools:context=".chilocemwomen1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView155"
+            android:layout_width="300dp"
+            android:layout_height="283dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginBottom="452dp"
+            android:src="@drawable/remove_bg_152"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView156"
+            android:layout_width="136dp"
+            android:layout_height="177dp"
+            android:src="@drawable/remove_bg_151"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-21dp" />
+
+        <ImageView
+            android:id="@+id/imageView157"
+            android:layout_width="238dp"
+            android:layout_height="334dp"
+            android:src="@drawable/remove_bg_149"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <ImageView
+            android:id="@+id/imageView158"
+            android:layout_width="254dp"
+            android:layout_height="396dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="352dp"
+            android:src="@drawable/remove_bg_154"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView159"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/remove_bg_150"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.117"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="280dp" />
+
+        <ImageView
+            android:id="@+id/imageView160"
+            android:layout_width="169dp"
+            android:layout_height="194dp"
+            android:src="@drawable/remove_bg_153"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.125"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="521dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
