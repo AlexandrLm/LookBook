@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kyrortocenwomen1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D79D91">
+
+        <ImageView
+            android:id="@+id/imageView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginBottom="380dp"
+            android:src="@drawable/remove_bg_905"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView96"
+            android:layout_width="186dp"
+            android:layout_height="386dp"
+            android:src="@drawable/remove_bg_901"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="358dp" />
+
+        <ImageView
+            android:id="@+id/imageView97"
+            android:layout_width="235dp"
+            android:layout_height="331dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="176dp"
+            android:src="@drawable/remove_bg_149"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView98"
+            android:layout_width="161dp"
+            android:layout_height="225dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="516dp"
+            android:src="@drawable/remove_bg_904"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/remove_bg_906"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <ImageView
+            android:id="@+id/imageView101"
+            android:layout_width="147dp"
+            android:layout_height="178dp"
+            android:src="@drawable/remove_bg_907"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
