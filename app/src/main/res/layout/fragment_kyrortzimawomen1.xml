@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D79D91"
+    tools:context=".kyrortzimawomen1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView114"
+            android:layout_width="235dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="176dp"
+            android:src="@drawable/remove_bg_885"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView115"
+            android:layout_width="320dp"
+            android:layout_height="501dp"
+            android:src="@drawable/remove_bg_874"
+            tools:layout_editor_absoluteX="-9dp"
+            tools:layout_editor_absoluteY="263dp" />
+
+        <ImageView
+            android:id="@+id/imageView116"
+            android:layout_width="202dp"
+            android:layout_height="243dp"
+            android:src="@drawable/remove_bg_884"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.856"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="514dp" />
+
+        <ImageView
+            android:id="@+id/imageView117"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/remove_bg_886"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <ImageView
+            android:id="@+id/imageView118"
+            android:layout_width="221dp"
+            android:layout_height="215dp"
+            android:src="@drawable/remove_bg_883"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.942"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-5dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
