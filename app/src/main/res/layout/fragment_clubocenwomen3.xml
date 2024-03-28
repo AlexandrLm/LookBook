@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C997A0"
+    tools:context=".clubocenwomen3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView424"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginBottom="440dp"
+            android:src="@drawable/remove_bg_595"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView425"
+            android:layout_width="214dp"
+            android:layout_height="424dp"
+            android:layout_marginTop="288dp"
+            android:layout_marginEnd="180dp"
+            android:src="@drawable/remove_bg_702"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView426"
+            android:layout_width="214dp"
+            android:layout_height="246dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginEnd="180dp"
+            android:src="@drawable/remove_bg_891"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView424" />
+
+        <ImageView
+            android:id="@+id/imageView427"
+            android:layout_width="141dp"
+            android:layout_height="215dp"
+            android:layout_marginEnd="268dp"
+            android:layout_marginBottom="580dp"
+            android:src="@drawable/remove_bg_715"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView428"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/remove_bg_894"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.662"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="278dp" />
+
+        <ImageView
+            android:id="@+id/imageView429"
+            android:layout_width="220dp"
+            android:layout_height="342dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="256dp"
+            android:src="@drawable/remove_bg_705"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView430"
+            android:layout_width="176dp"
+            android:layout_height="189dp"
+            android:src="@drawable/remove_bg_703"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.731"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="540dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
