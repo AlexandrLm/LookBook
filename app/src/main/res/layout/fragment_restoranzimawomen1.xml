@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EC3AF"
+    tools:context=".restoranzimawomen1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView487"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginBottom="248dp"
+            android:src="@drawable/remove_bg_600"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView488"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/remove_bg_1076"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <ImageView
+            android:id="@+id/imageView489"
+            android:layout_width="155dp"
+            android:layout_height="159dp"
+            android:src="@drawable/remove_bg_1075_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-30dp" />
+
+        <ImageView
+            android:id="@+id/imageView490"
+            android:layout_width="253dp"
+            android:layout_height="462dp"
+            android:layout_marginTop="288dp"
+            android:layout_marginEnd="164dp"
+            android:src="@drawable/remove_bg_1075"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView491"
+            android:layout_width="228dp"
+            android:layout_height="255dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="288dp"
+            android:src="@drawable/remove_bg_1075_3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView492"
+            android:layout_width="252dp"
+            android:layout_height="364dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="412dp"
+            android:src="@drawable/remove_bg_1075_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
