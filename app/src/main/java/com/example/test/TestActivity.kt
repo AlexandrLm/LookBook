@@ -5,7 +5,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 
@@ -47,51 +49,77 @@ class TestActivity : AppCompatActivity() {
      }
     @SuppressLint("ResourceAsColor")
     fun checkGender(v : View){
-        //val btnM : View = findViewById(R.id.genderM)
-        //val btnF : View = findViewById(R.id.genderF)
         if(v.id == R.id.genderM){
             gender = "male"
-            //btnM.background.setTint(R.color.white)
-            //btnF.background.setTint(R.color.testButton)
+            v.isActivated = true
+            findViewById<Button>(R.id.genderF).isActivated = false
         }
         else if (v.id == R.id.genderF) {
-            gender = "famale"
-            //btnF.background.setTint(R.color.white)
-            //btnM.background.setTint(R.color.testButton)
+            gender = "female"
+            v.isActivated = true
+            findViewById<Button>(R.id.genderM).isActivated = false
         }
         println(gender)
     }
     fun checkWhereGoing(v : View){
+
         //firstFragment
         when (v.id) {
             R.id.eveningBtn -> {
                 whereGoing = "evening"
+                v.isActivated = true
+                findViewById<Button>(R.id.clubBtn).isActivated = false
+                findViewById<Button>(R.id.restBtn).isActivated = false
             }
             R.id.clubBtn -> {
                 whereGoing = "club"
+                v.isActivated = true
+                findViewById<Button>(R.id.eveningBtn).isActivated = false
+                findViewById<Button>(R.id.restBtn).isActivated = false
             }
             R.id.restBtn -> {
                 whereGoing = "rest"
+                v.isActivated = true
+                findViewById<Button>(R.id.clubBtn).isActivated = false
+                findViewById<Button>(R.id.eveningBtn).isActivated = false
             }
             //secondFragment
             R.id.theatrBtn -> {
                 whereGoing = "theatr"
+                v.isActivated = true
+                findViewById<Button>(R.id.schoolBtn).isActivated = false
+                findViewById<Button>(R.id.cityBtn).isActivated = false
             }
             R.id.schoolBtn -> {
                 whereGoing = "school"
+                v.isActivated = true
+                findViewById<Button>(R.id.theatrBtn).isActivated = false
+                findViewById<Button>(R.id.cityBtn).isActivated = false
             }
             R.id.cityBtn -> {
                 whereGoing = "city"
+                v.isActivated = true
+                findViewById<Button>(R.id.theatrBtn).isActivated = false
+                findViewById<Button>(R.id.schoolBtn).isActivated = false
             }
             //thirdFragment
             R.id.cafeBtn -> {
                 whereGoing = "cafe"
+                v.isActivated = true
+                findViewById<Button>(R.id.resortBtn).isActivated = false
+                findViewById<Button>(R.id.restaurantBtn).isActivated = false
             }
             R.id.resortBtn -> {
                 whereGoing = "resort"
+                v.isActivated = true
+                findViewById<Button>(R.id.cafeBtn).isActivated = false
+                findViewById<Button>(R.id.restaurantBtn).isActivated = false
             }
             R.id.restaurantBtn -> {
                 whereGoing = "restaurant"
+                v.isActivated = true
+                findViewById<Button>(R.id.cafeBtn).isActivated = false
+                findViewById<Button>(R.id.resortBtn).isActivated = false
             }
         }
         println(whereGoing)
@@ -100,22 +128,38 @@ class TestActivity : AppCompatActivity() {
         when (v.id) {
             R.id.winterBtn -> {
                 season = "winter"
+                v.isActivated = true
+                findViewById<Button>(R.id.SummerBtn).isActivated = false
+                findViewById<Button>(R.id.springBtn).isActivated = false
             }
             R.id.SummerBtn -> {
                 season = "summer"
+                v.isActivated = true
+                findViewById<Button>(R.id.winterBtn).isActivated = false
+                findViewById<Button>(R.id.springBtn).isActivated = false
             }
             R.id.springBtn -> {
                 season = "spring"
+                v.isActivated = true
+                findViewById<Button>(R.id.winterBtn).isActivated = false
+                findViewById<Button>(R.id.SummerBtn).isActivated = false
             }
         }
         println(season)
     }
     fun search(v : View){
-        if (gender != "none" && whereGoing != "none" && season != "none"){
-            back()
+        if (gender == "none" || whereGoing == "none" || season == "none"){
+            Toast.makeText(this,"Выберите все значения", Toast.LENGTH_LONG).show()
+            println(gender)
+            println(whereGoing)
+            println(season)
+            return
         }
-        println(gender)
-        println(whereGoing)
-        println(season)
+
+        val intent = Intent(this, ResultActivity::class.java)
+        intent.putExtra("gender",gender)
+        intent.putExtra("whereGoing",whereGoing)
+        intent.putExtra("season",season)
+        startActivity(intent)
     }
 }
