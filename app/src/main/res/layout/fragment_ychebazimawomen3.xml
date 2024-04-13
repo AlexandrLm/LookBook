@@ -17,11 +17,10 @@
             android:id="@+id/imageView71"
             android:layout_width="252dp"
             android:layout_height="348dp"
+            android:layout_marginTop="32dp"
             android:src="@drawable/remove_bg_833"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.761"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView72"

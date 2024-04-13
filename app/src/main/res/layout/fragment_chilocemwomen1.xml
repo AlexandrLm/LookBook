@@ -25,21 +25,23 @@
             android:id="@+id/imageView156"
             android:layout_width="136dp"
             android:layout_height="177dp"
+            android:layout_marginBottom="584dp"
             android:src="@drawable/remove_bg_151"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.941"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="-21dp" />
+            app:layout_constraintHorizontal_bias="0.981"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView157"
             android:layout_width="238dp"
             android:layout_height="334dp"
+            android:layout_marginBottom="316dp"
             android:src="@drawable/remove_bg_149"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.91"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="93dp" />
+            app:layout_constraintHorizontal_bias="0.971"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView158"
@@ -55,11 +57,12 @@
             android:id="@+id/imageView159"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="268dp"
             android:src="@drawable/remove_bg_150"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.117"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="280dp" />
+            app:layout_constraintHorizontal_bias="0.113"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView160"

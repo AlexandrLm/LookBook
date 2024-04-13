@@ -13,18 +13,18 @@
 
         <ImageView
             android:id="@+id/imageView571"
-            android:layout_width="213dp"
-            android:layout_height="284dp"
-            android:layout_marginStart="172dp"
-            android:layout_marginTop="32dp"
+            android:layout_width="204dp"
+            android:layout_height="261dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="16dp"
             android:src="@drawable/remove_bg_496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView572"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="410dp"
+            android:layout_height="363dp"
             android:layout_marginEnd="104dp"
             android:layout_marginBottom="32dp"
             android:src="@drawable/remove_bg_433_1"
@@ -33,10 +33,10 @@
 
         <ImageView
             android:id="@+id/imageView574"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="116dp"
-            android:layout_marginEnd="168dp"
+            android:layout_width="242dp"
+            android:layout_height="291dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="180dp"
             android:src="@drawable/remove_bg_498"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -45,8 +45,8 @@
             android:id="@+id/imageView575"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="236dp"
-            android:layout_marginBottom="584dp"
+            android:layout_marginEnd="244dp"
+            android:layout_marginBottom="604dp"
             android:src="@drawable/remove_bg_451"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -55,11 +55,11 @@
             android:id="@+id/imageView576"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginBottom="316dp"
             android:src="@drawable/remove_bg_438"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.573"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="293dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView577"
@@ -75,11 +75,11 @@
             android:id="@+id/imageView578"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginBottom="4dp"
             android:src="@drawable/remove_bg_441"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.81"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="567dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

@@ -25,9 +25,11 @@
             android:id="@+id/imageView837"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="284dp"
+            android:layout_marginEnd="180dp"
             android:src="@drawable/remove_bg_452"
-            tools:layout_editor_absoluteX="-123dp"
-            tools:layout_editor_absoluteY="281dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView835"
@@ -63,11 +65,12 @@
             android:id="@+id/imageView839"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="200dp"
             android:src="@drawable/remove_bg_962"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.669"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="312dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView840"

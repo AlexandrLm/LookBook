@@ -62,13 +62,14 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView381"
+            android:id="@+id/imageView66"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="136dp"
-            android:layout_marginTop="380dp"
-            android:src="@drawable/remove_bg_1033"
-            app:layout_constraintStart_toStartOf="@+id/imageView378"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="564dp"
+            android:src="@drawable/remove_bg_873"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

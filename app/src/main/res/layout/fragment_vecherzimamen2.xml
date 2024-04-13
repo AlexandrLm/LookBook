@@ -25,9 +25,10 @@
             android:id="@+id/imageView1033"
             android:layout_width="257dp"
             android:layout_height="349dp"
+            android:layout_marginTop="24dp"
             android:src="@drawable/remove_bg_1295"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="32dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView1034"

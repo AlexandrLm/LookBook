@@ -13,24 +13,23 @@
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="253dp"
-            android:layout_height="466dp"
+            android:layout_width="247dp"
+            android:layout_height="456dp"
+            android:layout_marginStart="4dp"
             android:layout_marginBottom="4dp"
             android:src="@drawable/remove_bg_443"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.037"
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="200dp"
             android:layout_height="196dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="104dp"
             android:src="@drawable/designer_clothes__shoes___bags_for_women___ssense_1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.137"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="94dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView11"
@@ -67,11 +66,11 @@
             android:id="@+id/imageView14"
             android:layout_width="206dp"
             android:layout_height="231dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginBottom="532dp"
             android:src="@drawable/bow_earrings_silver___all_jewellery___karen_walker_photoroom_1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="-44dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView15"

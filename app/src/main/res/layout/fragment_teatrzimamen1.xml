@@ -55,7 +55,7 @@
             android:id="@+id/imageView874"
             android:layout_width="189dp"
             android:layout_height="207dp"
-            android:layout_marginStart="208dp"
+            android:layout_marginStart="220dp"
             android:src="@drawable/remove_bg_1098"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

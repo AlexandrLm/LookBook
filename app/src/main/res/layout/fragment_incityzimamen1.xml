@@ -22,16 +22,6 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView763"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="160dp"
-            android:layout_marginBottom="276dp"
-            android:src="@drawable/remove_bg_782"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <ImageView
             android:id="@+id/imageView764"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,5 +60,15 @@
             android:src="@drawable/remove_bg_786"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView939"
+            android:layout_width="247dp"
+            android:layout_height="425dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="256dp"
+            android:src="@drawable/remove_bg_7856"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

@@ -15,7 +15,7 @@
             android:id="@+id/imageView841"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="256dp"
+            android:layout_marginStart="236dp"
             android:layout_marginTop="220dp"
             android:src="@drawable/remove_bg_963"
             app:layout_constraintStart_toStartOf="parent"
@@ -43,13 +43,13 @@
 
         <ImageView
             android:id="@+id/imageView844"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="157dp"
+            android:layout_height="178dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginBottom="216dp"
             android:src="@drawable/remove_bg_438"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.622"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="332dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
             android:id="@+id/imageView845"
